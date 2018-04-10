@@ -34,7 +34,7 @@ Out of three datasets, for the first objective we reduce the number of duplicati
 2. 32% for the second dataset
 3. 25.43% for the third dataset
 
-Systemwide, we have a starting total of *147,611* clients. With our method we are able to join all three datasets and remove *4765* clients that exist across all three systems. In other words, there are approximately ~5,000 clients who use three different services from three different divisions of the department of human services in Arlington.
+Systemwide, we have a starting total of *147,611* clients. With our method we are able to join all three datasets and remove *4765* clients that exist across all three systems. In other words, there are approximately *~5,000* clients who use three different services from three different divisions of the department of human services in Arlington.
 
 #### Datasets
 
