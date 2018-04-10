@@ -9,9 +9,17 @@ The Department of Human Services in Arlington stores client data of different se
 
 #### Objective
 
+Our objective is to demonstrate to the stakeholders that by using probablistic linkage we would be able to
 
+1. Remove duplicate client information within each data system (a single data system corresponds to certain line of services).
+2. Link different data system which has not shared any primary and foreign key. 
+
+For objective 1, the internal departmental solution is using exact matching. For objective 2, we are coming up with a solution for the department.
 
 #### Team
+
+
+
 
 #### Deliverables
 
