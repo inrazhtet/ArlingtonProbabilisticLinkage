@@ -22,8 +22,8 @@ The lead Principal Investigator of the Team is [Aaron Schroeder](https://www.bi.
 
 #### Deliverables
 
-1. We have a symposium poster that outlined our approach with some initial results of one dataset.
-2. We have an intermediate results report that details the results of all three datasets that we applied the linkage method to.
+1. We have a symposium poster that outlined our approach with some initial results of one dataset. (Attached in this repository)
+2. We have an intermediate results report that details the results of all three datasets that we applied the linkage method to. (Attached in this repository)
 3. We have the results of a first cut of joining all three **previously unlinkable** datasets. (The results are under intermediate results report as well.) 
 
 ##### Result highlights
@@ -34,15 +34,40 @@ Out of three datasets, for the first objective we reduce the number of duplicati
 2. 32% for the second dataset
 3. 25.43% for the third dataset
 
-Systemwide, we have a starting total of *147,611* clients. With our method we are able to join all three datasets and remove *4765* clients that exist across all three systems. In other words, there are approximately *~5,000* clients who use three different services from three different divisions of the department of human services in Arlington.
+Systemwide, we have a starting total of *147,611* clients. With our method we are able to join all three datasets and remove *4765* clients that exist across all three systems. In other words, there are approximately *~5,000* clients who use three different services from three different divisions of the department of Human Services in Arlington.
 
 #### Datasets
 
 As a proof of concept, we deploy probabilistic linkage on the following three datasets.
 
-1. Behavioral Health for Children and Aging Population dataset
-2. Economic Independence dataset
-3. Community Service dataset
+1. Behavioral Health for Children and Aging Population dataset (Web Vision)
+2. Economic Independence dataset (ETO)
+3. Community Service dataset (Anasazi)
 
 #### Some of my contributions to the project
+
+Sayali and I pair-coded the initial deduplication for the ETO dataset. We based it off on our P.I's preliminary code. Furthermore, this is replicated across the other two datasets by each of us and finally, we pair-coded again on linking all three datasets. 
+Below, I have outlined a few of the **key** steps to achieve a deduplicated dataset. A code snippet of the first ETO file is included in this repository.
+
+*Please refer to the poster for a quick overview of Fellegi-Sunter probabilistic linkage method*
+
+1. Use compare.dedup from the RecordLinkage library to create pairs of rows for probabilistic comparison.
+2. Set m-probabilities. u-probabilities are set automatically using frequency.
+3. Apply the weights to the pairs.
+4. Check the weight distribution via plots to determine cut off point for definite match, review and mismatch.
+5. For the pairs under review, deduplicate those that share the same system ID and those that do not share the same system ID.
+6. From 5, merge any overlap between the two outputs and combine them to get a single **deduplicated** data set.
+7. The original dataset is antijoined with those rows that go through deduplication to the get rows that are **not** involved at all in deduplication.
+8. Combine output from **6** and **7** to get the complete dedudplicated dataset.
+
+#### Code snippet
+1. **dedup_eto.R** : This code file goes through the 8 key steps above and more.
+
+
+
+
+
+
+
+
 
