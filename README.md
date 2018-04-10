@@ -1,5 +1,5 @@
 # ArlingtonProbabilisticLinkage
-### Datasets deduplication and Linkage
+### Administrative datasets deduplication and linkage
 
 *This repository is **not** for reproducibility. It is to highlight a portion of the work I have done via some code snippets. The datasets are under strict confidentiality agreement.*
 
@@ -18,10 +18,13 @@ For objective 1, the internal departmental solution is using exact matching. For
 
 #### Team
 
-
-
+The lead Principal Investigator of the Team is [Aaron Schroeder](https://www.bi.vt.edu/faculty/Aaron-Schroeder). Sayali Phadke, a Ph.D. Statistics student at Penn State University and I were the two Data Science for Public Good Fellows on the team.
 
 #### Deliverables
+
+1. We have a symposium poster that outlined our approach with some initial results of one dataset.
+2. We have an intermediate results report that details the results of all three datasets that we applied the linkage method to.
+3. We have the results of a first cut of joining all three **previously unlinkable** datasets. (The results are under intermediate results report as well.) 
 
 #### Datasets
 
