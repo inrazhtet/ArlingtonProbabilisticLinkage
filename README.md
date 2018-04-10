@@ -26,7 +26,19 @@ The lead Principal Investigator of the Team is [Aaron Schroeder](https://www.bi.
 2. We have an intermediate results report that details the results of all three datasets that we applied the linkage method to.
 3. We have the results of a first cut of joining all three **previously unlinkable** datasets. (The results are under intermediate results report as well.) 
 
+##### Result highlights
+
+Out of three datasets, for the first objective we reduce the number of duplications upon their existing method by
+
+1. 0.3% for the first dataset
+2. 32% for the second dataset
+3. 25.43% for the third dataset
+
+Systemwide, we have a starting total of *147,611* clients. With our method we are able to join all three datasets and remove *4765* clients that exist across all three systems. In other words, there are approximately ~5,000 clients who use three different services from three different divisions of the department of human services in Arlington.
+
 #### Datasets
+
+
 
 #### Some of my contributions to the project
 
