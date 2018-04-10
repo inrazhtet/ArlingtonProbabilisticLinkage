@@ -38,8 +38,11 @@ Systemwide, we have a starting total of *147,611* clients. With our method we ar
 
 #### Datasets
 
+As a proof of concept, we deploy probabilistic linkage on the following three datasets.
 
+1. Behavioral Health for Children and Aging Population dataset
+2. Economic Independence dataset
+3. Community Service dataset
 
 #### Some of my contributions to the project
 
-#### 
