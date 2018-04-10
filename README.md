@@ -5,16 +5,16 @@
 
 #### Problem Statement
 
-The Department of Human Services in Arlington stores client data of different services in different format and databases. With being unable to link all these different client datasets, the department is unable to answer fundamental questions like how many **unique** clients are they serving in a single day? What are the demographics of those clients?
+The Department of Human Services in Arlington stores client data of different services in different format and databases. As the department is unable to link all these different client datasets, it is unable to answer fundamental questions like how many **unique** clients are they serving in a single day? What are the demographics of those clients?
 
 #### Objective
 
 Our objective is to demonstrate to the stakeholders that by using probablistic linkage we would be able to
 
-1. Remove duplicate client information within each data system (a single data system corresponds to certain line of services).
+1. Remove duplicate client information within each data system (a single data system corresponds to a certain line of services).
 2. Link different data system which has not shared any primary and foreign key. 
 
-For objective 1, the internal departmental solution is using exact matching. For objective 2, we are coming up with a solution for the department.
+For objective 1, the internal departmental solution is using exact matching. We are hoping to deploy probabilistic linkage to deliver better results. For objective 2, we are coming up with a solution for the department.
 
 #### Team
 
@@ -22,13 +22,13 @@ The lead Principal Investigator of the Team is [Aaron Schroeder](https://www.bi.
 
 #### Deliverables
 
-1. We have a symposium poster that outlined our approach with some initial results of one dataset. (Attached in this repository)
-2. We have an intermediate results report that details the results of all three datasets that we applied the linkage method to. (Attached in this repository)
-3. We have the results of a first cut of joining all three **previously unlinkable** datasets. (The results are under intermediate results report as well.) 
+1. In this repository, we have a symposium poster that outlined our approach with some initial results of one dataset.
+2. In this repository, we have an intermediate results report that details the results of all three datasets that we applied the linkage method to. This report was presented to the stakeholders of the department along with the poster at the final presentation day.
+3. Additionally, we also have the results of a first cut of joining all three **previously unlinkable** datasets. (The results are under intermediate results report as well.) 
 
 ##### Result highlights
 
-Out of three datasets, for the first objective we reduce the number of duplications upon their existing method by
+Out of three datasets, for the first objective we reduced the number of duplications over their existing method by
 
 1. 0.3% for the first dataset
 2. 32% for the second dataset
@@ -38,15 +38,15 @@ Systemwide, we have a starting total of *147,611* clients. With our method we ar
 
 #### Datasets
 
-As a proof of concept, we deploy probabilistic linkage on the following three datasets.
+As a proof of concept, we deployed probabilistic linkage on the following three datasets.
 
 1. Behavioral Health for Children and Aging Population dataset (Web Vision)
 2. Economic Independence dataset (ETO)
 3. Community Service dataset (Anasazi)
 
-#### Some of my contributions to the project
+#### My contributions to the project
 
-Sayali and I pair-coded the initial deduplication for the ETO dataset. We based it off on our P.I's preliminary code. Furthermore, this is replicated across the other two datasets by each of us and finally, we pair-coded again on linking all three datasets. 
+Sayali and I paircoded the initial deduplication for the ETO dataset. We based it off on our P.I's preliminary code. Furthermore, this code scheme is replicated across the other two datasets by each of us and finally, we paircoded again on linking all three datasets. 
 Below, I have outlined a few of the **key** steps to achieve a deduplicated dataset. A code snippet of the first ETO file is included in this repository.
 
 *Please refer to the poster for a quick overview of Fellegi-Sunter probabilistic linkage method*
