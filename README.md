@@ -26,7 +26,7 @@ The lead Principal Investigator of the Team is [Aaron Schroeder](https://www.bi.
 2. In this repository, we have an intermediate results report that details the results of all three datasets that we applied the linkage method to. This report was presented to the stakeholders of the department along with the poster at the final presentation day.
 3. Additionally, we also have the results of a first cut of joining all three **previously unlinkable** datasets. (The results are under intermediate results report as well.) 
 
-##### Result highlights
+#### Result highlights
 
 Out of three datasets, for the first objective we reduced the number of duplications over their existing method by
 
